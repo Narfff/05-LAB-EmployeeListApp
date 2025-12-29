@@ -39,6 +39,6 @@ else
 	}
 	protected async Task Load()
 	{
-		employees = await EmployeesService.GetEmployeesAsync();
+		employees = await employeesService.GetEmployeesAsync();
 	}
 }
